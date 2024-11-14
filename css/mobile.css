@@ -1,0 +1,40 @@
+@media (max-width: 481px) {
+  .conteiner {
+    padding-inline: 20px;
+  }
+  .main_sec {
+    padding: 16px;
+  }
+  .form_title {
+    margin-bottom: 40px;
+  }
+  .main_form {
+    gap: 36px;
+  }
+  .location_sec {
+    row-gap: 40px;
+  }
+  .button_section {
+    gap: 42px;
+  }
+}
+
+@media (max-width: 377px) {
+  .conteiner {
+    padding: 16px 8px;
+  }
+  .main_sec {
+    padding-inline: 8px;
+    gap: 48px;
+  }
+
+  .form_title {
+    margin-bottom: 24px;
+  }
+  .main_form {
+    gap: 24px;
+  }
+  .location_sec {
+    row-gap: 24px;
+  }
+}

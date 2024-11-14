@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <script
+      src="https://kit.fontawesome.com/b23ea8f03c.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/leptop.css" />
+    <link rel="stylesheet" href="./css/mobile.css" />
+
+    <title>index_page</title>
+  </head>
+  <body>
+    <!-- main  content -->
+    <div class="conteiner">
+      <section class="main_sec">
+        <!-- section for form -->
+        <section class="form_sec">
+          <h2 class="form_title">CONTACT US</h2>
+          <!-- form content -->
+          <form class="main_form" name="form">
+            <section class="sec_for_name">
+              <input type="text" name="name" placeholder="Name" />
+              <input type="email" name="email" placeholder="Email" />
+            </section>
+            <section class="sec_for_message">
+              <label class="lable_massage" for="message"
+                >Please provide more details below.</label
+              >
+              <textarea
+                name="message"
+                id="message"
+                placeholder="Message"
+              ></textarea>
+            </section>
+            <button type="submit" class="btn_submit">SEND</button>
+          </form>
+        </section>
+        <!-- location section  -->
+        <section class="location_sec">
+          <section class="button_section">
+            <button class="btn">
+              <a href="tel: 555555555"
+                ><img src="./images/phone.svg" alt=""
+              /></a>
+            </button>
+            <button class="btn">
+              <a href="mailto: someone.help@gmail.com"
+                ><img src="./images/mail.svg" alt=""
+              /></a>
+            </button>
+            <button class="btn">
+              <a
+                href="https://maps.app.goo.gl/WJXeYnVgqqTsWCRR9"
+                target="_blank"
+                ><img src="./images/location.svg" alt=""
+              /></a>
+            </button>
+          </section>
+          <!-- iframe content -->
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19967.57435568944!2d30.221885500000003!3d51.27529845!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x472a8f00e898abcf%3A0x14bcceabdbfd5d2c!2sChornobyl%2C%20Kyiv%20Oblast%2C%20Ukraine!5e0!3m2!1sen!2sge!4v1731610034659!5m2!1sen!2sge"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </section>
+      </section>
+    </div>
+  </body>
+</html>

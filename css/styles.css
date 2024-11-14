@@ -1,0 +1,162 @@
+/* font import */
+@import url("https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Pridi:wght@200;300;400;500;600;700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+/* main styles */
+.conteiner {
+  width: min(100%, 1440px);
+  margin: auto;
+  background-image: url("../images/background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* height: 666px; */
+  height: 100%;
+  padding: 64px 140px;
+}
+
+.main_sec {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+  background-color: #1c1325cc;
+  gap: 66px;
+  border-radius: 20px;
+  border: 1px solid #b052b5c9;
+}
+/* form styles */
+.form_sec {
+  width: 520px;
+  /* height: 458px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.form_title {
+  font-family: "Poppins", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 4px;
+  color: #ffffff;
+  text-shadow: 2px 4px 4px #f90cefb5;
+  margin-bottom: 80px;
+}
+.main_form {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  width: 100%;
+}
+
+.sec_for_name {
+  display: flex;
+  gap: 24px;
+}
+
+.sec_for_message {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.btn_submit {
+  width: 100%;
+  height: 64px;
+  border-radius: 16px;
+  background: #f30aea;
+  border: none;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 26px;
+  color: #ffffff;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn_submit:hover {
+  background: #980593;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+  border: 1px solid #b052b5;
+  background: transparent;
+  width: 100%;
+  height: 48px;
+  border-radius: 8px;
+  outline: none;
+  padding: 11px 22px;
+}
+input::placeholder,
+textarea::placeholder {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #9e8d9eb5;
+}
+
+textarea {
+  height: 112px;
+  width: 100%;
+  border-radius: 8px;
+  border: 1px solid #b052b5;
+  resize: none;
+}
+
+input,
+textarea {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #ffffff;
+}
+
+.lable_massage {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #ffffff;
+}
+
+.location_sec {
+  width: 494px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 72px;
+  align-items: center;
+}
+
+.button_section {
+  display: flex;
+  gap: 72px;
+}
+
+.btn {
+  width: 48px;
+  height: 48px;
+  border-radius: 8px;
+  border: 2px solid #ffffff;
+  background: #f30aea;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #980593;
+}
+
+iframe {
+  width: 100%;
+  height: 338px;
+  border: none;
+  border-radius: 10px;
+}
